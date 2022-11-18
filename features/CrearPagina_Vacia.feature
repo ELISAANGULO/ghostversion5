@@ -12,6 +12,10 @@ Scenario: Crear pagina nueva
   And I click pages
   And I wait for 2 seconds
   And I click New page
+    And I wait for 3 seconds
+  And I enter page " "
+  And I wait for 2 seconds
+  And I enter contenido pagina " "
   And I wait for 3 seconds
   And I click Salir page
   And I wait for 7 seconds
