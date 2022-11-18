@@ -8,8 +8,13 @@ Feature: Crear un post
     And I enter password
     And I wait for 2 seconds
     And I click next
-    And I wait for 2 seconds
+    And I wait for 4 seconds
     And I click Posts
+    And I wait for 4 seconds
+    And I click new post
     And I wait for 2 seconds
-    And I click on preview
+    And I enter new post " "
+    And I enter a subtitle " "
+    And I wait for 2 seconds
+    And I click Post back
     And I wait for 2 seconds
